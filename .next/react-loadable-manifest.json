@@ -1,56 +1,56 @@
 {
   "../node_modules/@splinetool/runtime/build/runtime.js -> ./boolean.js": {
-    "id": 6669,
+    "id": 4919,
     "files": [
-      "static/chunks/669.4aa4d43279392604.js"
+      "static/chunks/919.74b84c1dae4b05e7.js"
     ]
   },
   "../node_modules/@splinetool/runtime/build/runtime.js -> ./gaussian-splat-compression.js": {
-    "id": 2201,
+    "id": 7486,
     "files": [
-      "static/chunks/201.3ef88f16a64392d3.js"
+      "static/chunks/486.9b72aef15339a36b.js"
     ]
   },
   "../node_modules/@splinetool/runtime/build/runtime.js -> ./howler.js": {
-    "id": 8268,
+    "id": 1750,
     "files": [
-      "static/chunks/268.5ffeadc9d6ec62fe.js"
+      "static/chunks/750.86fff912999a5759.js"
     ]
   },
   "../node_modules/@splinetool/runtime/build/runtime.js -> ./navmesh.js": {
-    "id": 2275,
+    "id": 2500,
     "files": [
-      "static/chunks/275.6bc7c76b04f55586.js"
+      "static/chunks/119.8e79bfdd8d11cd3d.js"
     ]
   },
   "../node_modules/@splinetool/runtime/build/runtime.js -> ./opentype.js": {
-    "id": 856,
+    "id": 6595,
     "files": [
-      "static/chunks/61905917.98c967b0a59bbc53.js"
+      "static/chunks/61905917.5227252028edd6d6.js"
     ]
   },
   "../node_modules/@splinetool/runtime/build/runtime.js -> ./physics.js": {
-    "id": 330,
+    "id": 5806,
     "files": [
-      "static/chunks/e39c296e.8fcaf8e4230d7eef.js"
+      "static/chunks/e39c296e.a9e1737834717192.js"
     ]
   },
   "../node_modules/@splinetool/runtime/build/runtime.js -> ./process.js": {
-    "id": 6256,
+    "id": 7858,
     "files": [
-      "static/chunks/256.9ac065f6238f1ee0.js"
+      "static/chunks/858.e29031fd5685dcb8.js"
     ]
   },
   "../node_modules/@splinetool/runtime/build/runtime.js -> ./ui.js": {
-    "id": 4778,
+    "id": 9609,
     "files": [
-      "static/chunks/778.4e8137400b8d609c.js"
+      "static/chunks/609.b9dd9f96fe723a62.js"
     ]
   },
   "pages/index.tsx -> locomotive-scroll": {
-    "id": 4774,
+    "id": 6342,
     "files": [
-      "static/chunks/732.f63b257c3602dcab.js"
+      "static/chunks/342.2ac6c9dda6074572.js"
     ]
   }
 }
