@@ -1,56 +1,56 @@
 {
-  "../node_modules/@splinetool/runtime/build/runtime.js -> ./boolean.js": {
-    "id": 4919,
+  "../../node_modules/@splinetool/runtime/build/runtime.js -> ./boolean.js": {
+    "id": 6669,
     "files": [
-      "static/chunks/919.74b84c1dae4b05e7.js"
+      "static/chunks/669.10bb25ad290b971b.js"
     ]
   },
-  "../node_modules/@splinetool/runtime/build/runtime.js -> ./gaussian-splat-compression.js": {
-    "id": 7486,
+  "../../node_modules/@splinetool/runtime/build/runtime.js -> ./gaussian-splat-compression.js": {
+    "id": 2201,
     "files": [
-      "static/chunks/486.9b72aef15339a36b.js"
+      "static/chunks/201.c51c39019e96689e.js"
     ]
   },
-  "../node_modules/@splinetool/runtime/build/runtime.js -> ./howler.js": {
-    "id": 1750,
+  "../../node_modules/@splinetool/runtime/build/runtime.js -> ./howler.js": {
+    "id": 8268,
     "files": [
-      "static/chunks/750.86fff912999a5759.js"
+      "static/chunks/268.5ffeadc9d6ec62fe.js"
     ]
   },
-  "../node_modules/@splinetool/runtime/build/runtime.js -> ./navmesh.js": {
-    "id": 2500,
+  "../../node_modules/@splinetool/runtime/build/runtime.js -> ./navmesh.js": {
+    "id": 2275,
     "files": [
-      "static/chunks/119.8e79bfdd8d11cd3d.js"
+      "static/chunks/275.489ad06ccc41fcce.js"
     ]
   },
-  "../node_modules/@splinetool/runtime/build/runtime.js -> ./opentype.js": {
-    "id": 6595,
+  "../../node_modules/@splinetool/runtime/build/runtime.js -> ./opentype.js": {
+    "id": 856,
     "files": [
-      "static/chunks/61905917.5227252028edd6d6.js"
+      "static/chunks/61905917.815b4481cc81c9e5.js"
     ]
   },
-  "../node_modules/@splinetool/runtime/build/runtime.js -> ./physics.js": {
-    "id": 5806,
+  "../../node_modules/@splinetool/runtime/build/runtime.js -> ./physics.js": {
+    "id": 330,
     "files": [
-      "static/chunks/e39c296e.a9e1737834717192.js"
+      "static/chunks/e39c296e.43f50923597af82c.js"
     ]
   },
-  "../node_modules/@splinetool/runtime/build/runtime.js -> ./process.js": {
-    "id": 7858,
+  "../../node_modules/@splinetool/runtime/build/runtime.js -> ./process.js": {
+    "id": 6256,
     "files": [
-      "static/chunks/858.e29031fd5685dcb8.js"
+      "static/chunks/256.cbe7465733778d97.js"
     ]
   },
-  "../node_modules/@splinetool/runtime/build/runtime.js -> ./ui.js": {
-    "id": 9609,
+  "../../node_modules/@splinetool/runtime/build/runtime.js -> ./ui.js": {
+    "id": 4778,
     "files": [
-      "static/chunks/609.b9dd9f96fe723a62.js"
+      "static/chunks/778.f2b215445e1942f0.js"
     ]
   },
-  "pages/index.tsx -> locomotive-scroll": {
-    "id": 6342,
+  "index.tsx -> locomotive-scroll": {
+    "id": 4774,
     "files": [
-      "static/chunks/342.2ac6c9dda6074572.js"
+      "static/chunks/732.f63b257c3602dcab.js"
     ]
   }
 }
