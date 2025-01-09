@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "build": "next build",
+     "build:no-check": "next build --no-check",
     "export": "next export",
     "deploy": "npx gh-pages -d out",
     "start": "next start"
+   
   },
   "homepage": "https://balajiki1.github.io/Portfoliohost/",
   "dependencies": {
