@@ -4,11 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "next build",
-    "export": "next export",
-    "deploy": "gh-pages -d out",
-    "start": "next start"
-  },
+  "build": "next build", 
+  "export": "next build", 
+  "deploy": "npx gh-pages -d out", 
+  "start": "next start" 
+},
   "homepage": "https://balajiki1.github.io/Portfoliohost/",
   "dependencies": {
     "@motionone/utils": "^10.17.0",
