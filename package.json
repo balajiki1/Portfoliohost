@@ -5,11 +5,10 @@
   "type": "module",
   "scripts": {
     "build": "next build",
-     "build:no-check": "next build --no-check",
+    "build:no-check": "next build --no-check",
     "export": "next export",
     "deploy": "npx gh-pages -d out",
     "start": "next start"
-   
   },
   "homepage": "https://balajiki1.github.io/Portfoliohost/",
   "dependencies": {
@@ -27,7 +26,7 @@
     "locomotive-scroll": "5.0.0-beta.11",
     "lucide-react": "^0.314.0",
     "motion": "^10.17.0",
-    "next": "^14.1.0",
+    "next": "^15.1.4",
     "next-pwa": "^5.6.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
