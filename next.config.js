@@ -5,11 +5,12 @@ const assetPrefix = isGithubActions ? `/${repo}/` : '';
 const basePath = isGithubActions ? `/${repo}` : '';
 export default {
 
-  output: 'export', // Enables static export for Next.js
+  output: 'export',
+  distDir : 'dist',
   assetPrefix: assetPrefix,
   basePath: basePath,
   images: {
-    unoptimized: true, // Disable image optimization
+    unoptimized: true, 
   },
   trailingSlash: true, // Ensure proper routing
 };
