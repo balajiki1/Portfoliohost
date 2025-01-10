@@ -341,12 +341,16 @@ export default function Home() {
         <Gradient />
 
         {/* Intro */}
+       
         <section
   id="home"
   data-scroll-section
-  className="mt-40 flex w-full flex-col items-center xl:mt-0 xl:min-h-screen xl:flex-row xl:justify-between"
+  className="mt-20 flex w-full flex-col items-center px-6 xl:mt-0 xl:min-h-screen xl:flex-row xl:justify-between xl:px-20"
 >
-  <div className={styles.intro}>
+  {/* Left Content */}
+  <div
+    className={`${styles.intro} flex flex-col items-center xl:items-start`}
+  >
     <div
       data-scroll
       data-scroll-direction="horizontal"
@@ -355,26 +359,23 @@ export default function Home() {
     >
       <span className={styles.pill}>Full Stack Developer</span>
     </div>
-    <div>
+    <div className="text-center xl:text-left">
       <h1
         data-scroll
         data-scroll-enable-touch-speed
         data-scroll-speed=".06"
         data-scroll-direction="horizontal"
+        className="text-4xl font-bold tracking-tighter text-foreground sm:text-5xl md:text-6xl xl:text-7xl 2xl:text-8xl"
       >
-        <span className="text-6xl tracking-tighter text-foreground 2xl:text-8xl">
-          Hello, I&apos;m
-          <br />
-        </span>
-        <span className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
-          Kishore Balaji.
-        </span>
+        Hello, I&apos;m
+        <br />
+        <span className="clash-grotesk text-gradient">Kishore Balaji.</span>
       </h1>
       <p
         data-scroll
         data-scroll-enable-touch-speed
         data-scroll-speed=".06"
-        className="mt-1 max-w-lg tracking-tight text-muted-foreground 2xl:text-xl"
+        className="mt-4 max-w-lg text-base tracking-tight text-muted-foreground sm:text-lg md:text-xl 2xl:text-2xl"
       >
         A full-stack developer with 3+ years of experience in building scalable
         applications using Angular, React, Javascript, Java, and AWS.
@@ -389,7 +390,7 @@ export default function Home() {
         rel="noopener noreferrer"
         className="transition duration-300 hover:text-gray-900"
       >
-        <FaGithub className="h-8 w-8" />
+        <FaGithub className="h-6 w-6 sm:h-8 sm:w-8" />
       </a>
       <a
         href="https://www.linkedin.com/in/kishore--balaji/"
@@ -397,14 +398,14 @@ export default function Home() {
         rel="noopener noreferrer"
         className="transition duration-300 hover:text-gray-900"
       >
-        <FaLinkedin className="h-8 w-8" />
+        <FaLinkedin className="h-6 w-6 sm:h-8 sm:w-8" />
       </a>
     </div>
     <span
       data-scroll
       data-scroll-enable-touch-speed
       data-scroll-speed=".06"
-      className="flex flex-row items-center space-x-1.5 pt-6"
+      className="flex flex-row items-center space-x-4 pt-6"
     >
       <Link href="mailto:kishorebalaji74@gmail.com" passHref>
         <Button>
@@ -415,34 +416,32 @@ export default function Home() {
         href="https://drive.google.com/file/d/1TzAAPvz-itE7EiXKVy5MaNQhDRAAVHKv/view?usp=drive_link"
         target="_blank"
         rel="noopener noreferrer"
-      > 
+      >
         <Button variant="outline">
           Resume <ChevronRight className="ml-1 h-4 w-4" />
         </Button>
       </a>
     </span>
-
     <div
-      className={cn(
-        styles.scroll,
-        isScrolled && styles["scroll--hidden"],
-      )}
+      className={cn(styles.scroll, isScrolled && styles["scroll--hidden"])}
     >
       Scroll to discover{" "}
       <TriangleDownIcon className="mt-1 animate-bounce" />
     </div>
   </div>
-  <div
-    data-scroll
-    data-scroll-speed="-.01"
-    id={styles["canvas-container"]}
-    className="mt-14 h-full w-full xl:mt-0"
-  >
-    <Suspense fallback={<span>Loading...</span>}>
-      <Spline scene="https://prod.spline.design/uQxzNZrdLr3Cy4vT/scene.splinecode" />
-    </Suspense>
+
+  {/* Right Content */}
+  <div className="mt-12 flex flex-shrink-0 justify-center xl:mt-0 xl:justify-start">
+    <Image
+      src={Profilepic} // Ensure Profilepic is correctly imported at the top
+      alt="Profile Picture"
+      className="h-48 w-48 rounded-full object-cover sm:h-60 sm:w-60 md:h-72 md:w-72 xl:h-96 xl:w-96"
+      width={320}
+      height={320}
+    />
   </div>
 </section>
+
 
 
         {/* About */}
@@ -454,16 +453,17 @@ export default function Home() {
             className="my-14 flex max-w-6xl flex-col space-y-10 xl:flex-row xl:items-center xl:space-x-10 xl:space-y-0"
           >
             {/* Profile Picture on the Left */}
-            <div className="flex flex-shrink-0 justify-center xl:justify-start">
-              <Image
-                src={Profilepic} // Ensure Profilepic is correctly imported at the top
-                alt="Profile Picture"
-                className="h-80 w-80 rounded-full object-cover xl:h-96 xl:w-96"
-                width={320} // Define width explicitly
-                height={320} // Define height explicitly
-              />
-            </div>
-
+            
+            <div
+    data-scroll
+    data-scroll-speed="-.01"
+    id={styles["canvas-container"]}
+    className="mt-14 h-full w-full xl:mt-0"
+  >
+    <Suspense fallback={<span>Loading...</span>}>
+      <Spline scene="https://prod.spline.design/lwIzYHoGrgf5cfFF/scene.splinecode" />
+    </Suspense>
+  </div>
             {/* About Text on the Right */}
             <div className="flex flex-col space-y-6">
               <h2 className="text-lg leading-relaxed tracking-tighter text-foreground xl:text-xl">
