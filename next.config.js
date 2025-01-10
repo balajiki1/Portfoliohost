@@ -8,7 +8,7 @@ export default {
   output: 'export',
   distDir : 'dist',
   assetPrefix: assetPrefix,
-  basePath: basePath,
+  basePath: "",
   images: {
     unoptimized: true, 
   },
