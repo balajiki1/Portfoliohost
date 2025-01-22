@@ -19,12 +19,12 @@ const slideUp = {
   },
   exit: {
     top: "-100vh",
-    transition: { duration: 0.8, ease: [0.76, 0, 0.24, 1], delay: 0.8},
+    transition: { duration: 0.8, ease: [0.76, 0, 0.24, 1], delay: .},
   },
 };
 
 const words = [
-  "Hello",
+  "Hallo",
   "வணக்கம்",
   "Bonjour",
   "Ciao",
@@ -32,7 +32,7 @@ const words = [
   "やあ",
   "Hallå",
   "Guten tag",
-  "Hallo",
+  "Hello",
 ];
 
 export default function Preloader() {
