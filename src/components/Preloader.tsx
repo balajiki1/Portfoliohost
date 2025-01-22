@@ -63,7 +63,7 @@ export default function Preloader() {
     },
     exit: {
       d: targetPath,
-      transition: { duration: 2, ease: [0.76, 0, 0.24, 1], delay: 1},
+      transition: { duration: 2, ease: [0.76, 0, 0.24, 1], delay: 0.8},
     },
   };
 
