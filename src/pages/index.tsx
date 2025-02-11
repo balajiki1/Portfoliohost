@@ -190,15 +190,15 @@ const workExperience = [
     duration: "Dec 2022 – May 2024",
     location: "Chennai, India",
     logo: tiburalogo,
-    description: [
-      "Developed and deployed critical modules for Sales and Distribution and HRMS applications, enhancing efficiency by 30% through streamlined operations and automated workflows.",
-      "Built scalable RESTful APIs and managed PostgreSQL databases, ensuring 99.9% data integrity and improving performance.",
-      "Leveraged AWS EC2, S3, and IAM for deployment and resource management, achieving high scalability and availability.",
-      "Implemented CI/CD pipelines using Jenkins, reducing deployment time by 40% and ensuring seamless integrations.",
-      "Led the design and deployment of a B2B mobile app using the Ionic framework, published on Google Play, increasing client engagement by 20%.",
-      "Architected an E-commerce Integration platform with Vue.js and Node.js, reducing integration time by 40%.",
-      "Spearheaded web development using WordPress for dynamic content management, cutting website delivery time by 50%.",
-    ],
+  description: [
+    "Developed key modules for Sales and HRMS using scalable RESTful APIs with PostgreSQL, delivering 50+ high-performance APIs that improved efficiency by 30%, ensured 99.9% data accuracy, and optimized response times.",
+    "Led a 10-member Agile Scrum team, managing sprints and backlog with JIRA to ensure timely, high-quality delivery.",
+    "Deployed scalable applications using AWS (EC2, S3, RDS, Lambda, IAM) with automated CI/CD pipelines in Jenkins, minimizing deployment time by 40%.",
+    "Designed and developed a B2B mobile app with the Ionic framework, published on Google Play, improving sales operations and user accessibility.",
+    "Built an HRMS application with Angular and Java, streamlining time management and payroll processes to enhance efficiency by 40%.",
+    "Contributed to the development of an enterprise resource planning (ERP) platform called Xtend, focusing on scalable architecture and seamless integration to optimize business operations."
+]
+
   },
   {
     role: "Frontend Developer",
@@ -206,13 +206,14 @@ const workExperience = [
     duration: "Oct 2021 – Dec 2022",
     location: "Chennai, India",
     logo: tiburalogo,
-    description: [
-      "Implemented micro-frontend architecture with Webpack Module Federation, enabling 25% faster feature deployment.",
-      "Optimized performance with lazy loading and code splitting, achieving 40% faster load times.",
-      "Developed reusable UI components and integrated RESTful APIs, reducing redundancy by 30%.",
-      "Collaborated with UX designers using Figma to create user-friendly interfaces, boosting satisfaction.",
-      "Worked on cross-platform mobile apps with the Ionic framework, reducing time-to-market by 20%.",
-    ],
+   description: [
+    "Designed and implemented a micro-frontend architecture using React and Webpack Module Federation, enabling seamless integration with Angular applications and improving feature deployment speed by 25%.",
+    "Optimized frontend performance with lazy loading and code splitting, reducing load times by 40% while ensuring best practices for scalability and maintainability.",
+    "Developed reusable UI components using TypeScript and JavaScript, integrating them with RESTful APIs to streamline development and reduce redundancy by 30%.",
+    "Led cross-platform mobile app development with Ionic and Vue.js, minimizing time-to-market by 20% while ensuring a seamless user experience.",
+    "Managed a development team and facilitated knowledge-sharing sessions to enhance workflows and accelerate overall project execution."
+]
+
   },
   // {
   //   role: "Software Developer Trainee",
