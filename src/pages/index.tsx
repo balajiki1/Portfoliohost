@@ -408,7 +408,7 @@ export default function Home() {
       data-scroll-speed=".06"
       className="flex flex-row items-center space-x-4 pt-6"
     >
-      <Link href="mailto:kishorebalaji74@gmail.com" passHref>
+      <Link href="mailto:contact@kishorebalaji.com" passHref>
         <Button>
           Get in touch <ChevronRight className="ml-1 h-4 w-4" />
         </Button>
@@ -768,7 +768,7 @@ export default function Home() {
       I&apos;m currently available for Summer Intership 2025 and open to
       discussing new projects.
     </p>
-    <Link href="mailto:kishorebalaji74@gmail.com" passHref>
+    <Link href="mailto:contact@kishorebalaji.com" passHref>
       <Button className="mt-6">Get in touch</Button>
     </Link>
   </div>
