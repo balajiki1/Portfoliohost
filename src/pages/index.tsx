@@ -765,7 +765,7 @@ export default function Home() {
       <span className="text-gradient clash-grotesk">together.</span>
     </h2>
     <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-      I&apos;m currently available for Summer Intership 2025 and open to
+      I&apos;m currently available for Spring Intership 2026 and open to
       discussing new projects.
     </p>
     <Link href="mailto:contact@kishorebalaji.com" passHref>
