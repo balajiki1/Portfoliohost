@@ -185,7 +185,7 @@ const projects = [
 
 const workExperience = [
   {
-    role: "Full Stack Developer",
+    role: "Software Engineer",
     company: "Tibura Solutions India Pvt Ltd",
     duration: "Dec 2022 – May 2024",
     location: "Chennai, India",
@@ -358,7 +358,7 @@ export default function Home() {
       data-scroll-speed=".09"
       className="flex flex-row items-center space-x-1.5"
     >
-      <span className={styles.pill}>Full Stack Developer</span>
+      <span className={styles.pill}>Software Engineer</span>
     </div>
     <div className="text-center xl:text-left">
       <h1
